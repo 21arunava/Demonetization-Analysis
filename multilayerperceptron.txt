@@ -1,0 +1,54 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     cleaned_demone
+Instances:    6268
+Attributes:   5
+              ID
+              TRUNCATED
+              possibly_sensitive
+              retweeted_status
+              reaction
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -0.3949543282613143
+    Node 1    -0.9923675583096883
+    Node 2    -0.6609365311055067
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -17.108042576385667
+    Attrib ID    16.78683713190955
+    Attrib TRUNCATED    1.2430565636254014
+    Attrib possibly_sensitive    0.08337169040910343
+    Attrib retweeted_status    -0.4095270106329465
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -15.896211366136002
+    Attrib ID    13.747825459743227
+    Attrib TRUNCATED    0.8023796982443132
+    Attrib possibly_sensitive    0.31517690903537243
+    Attrib retweeted_status    0.8347035375356758
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 1.16 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.0547
+Mean absolute error                      0.7869
+Root mean squared error                  0.8783
+Relative absolute error                 98.1663 %
+Root relative squared error            101.063  %
+Total Number of Instances             6260     
+Ignored Class Unknown Instances                  8

@@ -1,0 +1,37 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression 
+Relation:     cleaned_demone
+Instances:    6268
+Attributes:   5
+              ID
+              TRUNCATED
+              possibly_sensitive
+              retweeted_status
+              reaction
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Linear regression on ID
+
+-0 * ID - 0.21
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.0368
+Mean absolute error                      0.8005
+Root mean squared error                  0.8684
+Relative absolute error                 99.8604 %
+Root relative squared error             99.9323 %
+Total Number of Instances             6260     
+Ignored Class Unknown Instances                  8

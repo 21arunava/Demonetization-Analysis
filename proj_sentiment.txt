@@ -1,0 +1,21 @@
+Classification
+-->accuracy
+-->area under curve
+-->ruc
+-->deepnet library
+-->F1
+
+Sentiment Analysis in financial texts
+http://www.sciencedirect.com/science/article/pii/S0167923616301828
+
+An unsupervised machine learning model for discovering latent infectious diseases using social media data
+http://www.sciencedirect.com/science/article/pii/S1532046416301812
+
+Deep Learning Papers reading roadmap
+https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
+
+deepr--An R package to streamline the training, fine-tuning and predicting processes for deep learning. It aims to further simplify the functions in packages such as 'h2o' and 'deepnet'.
+https://github.com/woobe/deepr
+
+Classification algorithms in R(downloadable)
+http://www.datasciencecentral.com/profiles/blogs/implemetation-of-17-classification-algorithms-in-r

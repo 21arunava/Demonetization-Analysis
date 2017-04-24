@@ -1,0 +1,43 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     cleaned_demone
+Instances:    6268
+Attributes:   5
+              ID
+              TRUNCATED
+              possibly_sensitive
+              retweeted_status
+              reaction
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0004 * (normalized) ID
+ -       0      * (normalized) TRUNCATED
+ +       0.0001 * (normalized) possibly_sensitive
+ +       0.0001 * (normalized) retweeted_status
+ +       0.0004
+
+
+
+Number of kernel evaluations: 142819572 (18.46% cached)
+
+Time taken to build model: 11.46 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.0405
+Mean absolute error                      0.7315
+Root mean squared error                  1.1354
+Relative absolute error                 91.2608 %
+Root relative squared error            130.6545 %
+Total Number of Instances             6260     
+Ignored Class Unknown Instances                  8
